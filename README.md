@@ -16,12 +16,10 @@ The forecast for each day has random wording for the type of precipitation, temp
 ## Usage
 
 * As a webpage:
-  
-  Copy the `random-weather.html` and `script.js` files to the same folder and open the HTML page.
-
+  * Copy the `random-weather.html` and `script.js` files to the same folder and open the HTML page in a browser.
+  * Or view the webpage [online](https://hyphenminus.github.io/mixed-messages/random-weather.html)
 * As text from the command line:
-  
-  `node script.js`
+  * `node script.js`
 
 ## Author
 

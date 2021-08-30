@@ -7,7 +7,7 @@
 const dayMessage = () => {
     const chooseItem = (array) => {
         return array[Math.floor(Math.random() * array.length)];
-    }
+    };
     const precipitations = ["dry", "showery", "rainy", "snowy", "drizzly", "stormy"];
     const temperatures = ["freezing", "cold", "chilly", "mild", "hot", "scorching"];
     const windStrengths = ["strong", "blustery", "slight"];

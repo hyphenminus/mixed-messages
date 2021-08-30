@@ -9,7 +9,7 @@
             html {
                 font-family: 'Nunito', sans-serif;
                 font-size: 1.5em;
-                background-image: linear-gradient(#9cf, #fff 50% 60%, #cfc);
+                background-image: linear-gradient(#9cf, #fff 50%, #fff 60%, #cfc);
                 height: 100%;
             }
             body {
@@ -47,7 +47,11 @@
             <h1>Random weather forecast</h1>
             <div id="weather"></div>
         </main>
-        <footer><small>© <a href="https://github.com/hyphenminus/mixed-messages">hyphenminus</a><small></small></footer>
+        <footer>
+            <small>© 
+                <a href="https://github.com/hyphenminus/mixed-messages">hyphenminus</a>
+            </small>
+        </footer>
         <script src="script.js">/* Import weatherMessages() */</script>
         <script>
             document.getElementById("weather").textContent = weatherMessages();
