@@ -23,7 +23,7 @@ const weatherMessages = () => {
     const today = dayMessage();
     const tomorrow = dayMessage();
     const weekend = dayMessage();
-    const message = `The weather today will be ${today}. Tomorrow's weather will be ${tomorrow}. `
+    const message = `The weather today will be ${today}. Tomorrow’s weather will be ${tomorrow}. `
         + `The outlook for the weekend is ${weekend}. So do wrap up.`;
     return message;
 };
