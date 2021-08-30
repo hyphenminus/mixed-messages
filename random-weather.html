@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <title>Random weather</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+        <style>
+            html {
+                font-family: 'Nunito', sans-serif;
+                font-size: 1.5em;
+                background-image: linear-gradient(#9cf, #fff 50% 60%, #cfc);
+                height: 100%;
+            }
+            body {
+                margin: auto;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            main {
+                max-width: 30em;
+                margin: auto;
+            }
+            h1 {
+                font-size: 1.5em;
+                font-style: italic;
+                text-align: center;
+            }
+            footer {
+                text-align: center;
+                color: #c66;
+                margin: 1em auto;
+            }
+            a:any-link, a:any-link:visited {
+                text-decoration: none;
+                color: inherit;
+            }
+            a:any-link:hover, a:any-link:active {
+                color: #c33;
+                text-decoration: underline solid 0.05em #c33;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Random weather forecast</h1>
+            <div id="weather"></div>
+        </main>
+        <footer><small>© <a href="https://github.com/hyphenminus/mixed-messages">hyphenminus</a><small></small></footer>
+        <script src="script.js">/* Import weatherMessages() */</script>
+        <script>
+            document.getElementById("weather").textContent = weatherMessages();
+        </script>
+    </body>
+</html>
